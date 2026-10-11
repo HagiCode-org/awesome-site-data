@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "upstream": {
+    "revision": "1e61bb740c9eaa6eef2be94fac8197dbe3fc0e79",
+    "readmePath": "README.md",
+    "digest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2"
+  },
+  "mirror": {
+    "path": "mirror/README.md",
+    "digest": "b0844167d583c9029b2b9b19bca8e6c9064ebcc962f1cb37085c8ec41a2566a2"
+  },
+  "edits": []
+}
