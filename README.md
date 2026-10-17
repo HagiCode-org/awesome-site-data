@@ -1,5 +1,7 @@
 # awesome-site-data
 
+[![last commit](https://img.shields.io/github/last-commit/HagiCode-org/awesome-site-data)](https://github.com/HagiCode-org/awesome-site-data/commits/main)
+
 Collection data for [awesome-site](https://github.com/HagiCode-org/awesome-site): the collection registry, topic catalogs, GitHub-only candidates, source review ledger, reviewed translations, pinned upstream README sources, and the translation tooling that produces them. The framework consumes this repository as its `data/` submodule, so the layout below is a contract: `awesome-site` reads these paths directly.
 
 ## Layout contract
