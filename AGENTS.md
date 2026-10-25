@@ -39,9 +39,8 @@ There is no `package.json`; scripts use Node built-ins only. Content validation 
 - Onboard a source with `git submodule add https://github.com/<owner>/<repo>.git sources/<id>`; do not run `git submodule add` for an existing source (it moves the pin).
 - When a mirror edit removes a passage, remove it from every locale body too, or the content gate fails.
 - Do not add generated pages here. After pushing data to `main`, bump the `data/` pin in `awesome-site`, then run its `content:check`, `check`, `build`, `test`. A data commit reaches the site only through that pin.
-- Record political-sensitivity re-scans in the README audit section when pins change.
 
 ## References
 
-- `README.md` (layout contract, source review ledger, mirror/cleanup edits, translation workflow)
+- `README.md` (what the data covers, how to get it, how to add or update a collection or translation)
 - `repos/awesome-site/README.md`
