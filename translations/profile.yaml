@@ -1,0 +1,111 @@
+# profile.yaml — written by `tr.mjs init`; human-owned from now on (runs never edit it). Field meanings: references/profile-spec.md
+schema: 1
+repo: "awesome-site-data"   # informational; scripts locate the repo from this file's own path
+translationsRoot: translations
+defaultLocale: zh-CN
+locales:
+  zh-CN:
+    name: "简体中文"
+    cjk: true
+    notes: "读者称“你”不称“您”;全角标点;中英文与数字之间加半角空格;技术文档,语气书面、克制。"
+  zh-Hant:
+    name: "繁體中文"
+    cjk: true
+    notes: "使用台灣慣用詞彙與全形標點;中英文與數字之間加半形空格;語氣書面、克制。"
+  de-DE:
+    name: "Deutsch"
+    cjk: false
+    notes: ""
+  es-ES:
+    name: "Español"
+    cjk: false
+    notes: ""
+  fr-FR:
+    name: "Français"
+    cjk: false
+    notes: ""
+  ja-JP:
+    name: "日本語"
+    cjk: true
+    notes: ""
+  ko-KR:
+    name: "한국어"
+    cjk: true
+    notes: ""
+  pt-BR:
+    name: "Português (Brasil)"
+    cjk: false
+    notes: ""
+  ru-RU:
+    name: "Русский"
+    cjk: false
+    notes: ""
+
+sources:
+  description: "English mirrors of the pinned awesome-list READMEs (content/awesome/<id>/mirror/README.md, or sources/<id>/README.md when a collection has no mirror). One document per collection and locale; the doc name is the output path <id>/locales/<locale>.md."
+  discovery:
+    cwd: .
+    command: node translations/discover.mjs --locale {locale}
+  extensions: [.md]
+
+output:
+  template: "content/awesome/{doc}"        # reviewed translations already live here
+
+externalTranslations:
+  policy: skip
+  evidence: []
+
+writeScope: [translations/, content/awesome/]
+readOnly:
+  - content/awesome/*/mirror/
+  - content/awesome/*/mirror.json
+  - content/awesome/*/translations.json   # review metadata; follow-up: decide who updates it when a run changes a locale file
+  - content/awesome/*/locales/.*.work      # scratch files from earlier tooling
+  - content/awesome/*.yml
+  - content/awesome/collections.json
+  - content/awesome/catalogs.json
+  - content/awesome/candidates.json
+  - sources/
+  - scripts/
+  - .gitmodules
+  - README.md
+  - AGENTS.md
+forbidden:
+  - repos/hagicode-local-deployment/.generated/environments/dev-a   # the owner's live deployment: no reads, writes, restarts, kills
+  - npm install / pnpm install / builds / tests / long-running services
+  - killing processes by name
+  - git push / stash / reset / checkout / new branches / --no-verify
+
+priority: []                               # doc names are <id>/mirror/README.md; no tiering until the owner ranks collections
+
+budgets:
+  maxRunMinutes: 240
+  maxDocs: 10
+  maxSourceBytes: 80000
+  minMinutesToStartDoc: 20
+
+models:                                    # hints copied into every job; the orchestrator maps them to subagent models
+  translate: haiku
+  review: haiku
+  escalate: sonnet
+
+keepBaseSource: true                       # keep the translated source under state/base/ so later changes can be applied as a diff
+
+commit:
+  enabled: false                           # turn on after the profile is committed (humans commit it before the first run)
+  messagePrefix: "docs(translation)"
+  trailer: ""
+
+timezone: America/Los_Angeles
+
+rules:
+  doNotTranslateSeeds: [HagiCode]                  # product / brand names that must stay as they are
+  links: Keep relative links unchanged.
+  frontmatterTranslatable: [title, description]
+  extra:
+    - Do not translate comments inside fenced code blocks (code blocks are verified byte-for-byte).
+    - Other sessions may share this worktree and git index; run git status first and only ever touch translations/.
+    - Scratch files go to the session scratchpad (or a mktemp -d outside the repo), never into the repo.
+    - Node commands use NODE_OPTIONS=--max-old-space-size=24576; anything that may hang runs under timeout -k 30 <seconds>.
+    - Existing reviewed translations live in content/awesome/<id>/locales/<locale>.md with metadata in translations.json; runs must not touch them until the owner decides how translations are handed over.
+    - Keep awesome-list entry names, repository names and URLs untranslated.
