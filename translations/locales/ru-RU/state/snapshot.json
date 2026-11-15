@@ -187,21 +187,6 @@
       "flags": [],
       "note": "adopted: existing translation assumed current for this source"
     },
-    "awesome-chatgpt-prompts-zh/locales/ru-RU.md": {
-      "status": "done",
-      "adopted": true,
-      "sourceSha256": "2445b394b0bc585beedc18c53dbd368134bdaedce2035f7241fcc67ab5076dff",
-      "sourceRevision": "5eae255c34ff32f66b66c89c0765ead66c77db97",
-      "translationPath": "content/awesome/awesome-chatgpt-prompts-zh/locales/ru-RU.md",
-      "translationSha256": "cc13e603c3715b68f67fec799fc5f5b01b679a96b1014cfdb6b717e14bf71700",
-      "glossaryVersion": null,
-      "attempts": 0,
-      "runId": "adopt-20261030-1951",
-      "doneAt": "2026-10-30T19:51:30.851Z",
-      "reviewedAt": null,
-      "flags": [],
-      "note": "adopted: existing translation assumed current for this source"
-    },
     "awesome-chinese-nlp/locales/ru-RU.md": {
       "status": "done",
       "adopted": true,

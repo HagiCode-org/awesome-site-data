@@ -267,8 +267,8 @@
 - id: awesome-chatgpt-prompts-zh
   source: https://github.com/PlexPt/awesome-chatgpt-prompts-zh
   title: Awesome ChatGPT Prompts (Chinese)
-  imported: true
-  notImportedReason: null
+  imported: false
+  notImportedReason: "Removed from the collection registry: the source repository returns 404 upstream (removed or renamed)."
   importedAt: null
 - id: awesome-chatgpt-zh
   source: https://github.com/EmbraceAGI/awesome-chatgpt-zh

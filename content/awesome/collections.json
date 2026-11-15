@@ -517,17 +517,6 @@
     "catalog": "llm-research"
   },
   {
-    "id": "awesome-chatgpt-prompts-zh",
-    "repositoryUrl": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
-    "sourceDir": "sources/awesome-chatgpt-prompts-zh",
-    "readmePath": "README.md",
-    "licensePath": "LICENSE",
-    "licenseId": "MIT",
-    "route": "awesome/awesome-chatgpt-prompts-zh",
-    "title": "ChatGPT Prompts (Chinese)",
-    "catalog": "llm-apps"
-  },
-  {
     "id": "awesome-prompt-engineering",
     "repositoryUrl": "https://github.com/promptslab/Awesome-Prompt-Engineering",
     "sourceDir": "sources/awesome-prompt-engineering",

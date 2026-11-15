@@ -160,9 +160,6 @@
 [submodule "sources/awesome-bash"]
 	path = sources/awesome-bash
 	url = https://github.com/awesome-lists/awesome-bash.git
-[submodule "sources/awesome-chatgpt-prompts-zh"]
-	path = sources/awesome-chatgpt-prompts-zh
-	url = https://github.com/PlexPt/awesome-chatgpt-prompts-zh.git
 [submodule "sources/awesome-cloud-security"]
 	path = sources/awesome-cloud-security
 	url = https://github.com/teamssix/awesome-cloud-security.git
