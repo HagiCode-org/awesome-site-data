@@ -116,7 +116,6 @@
 - [awesome-hallucination-detection](https://github.com/EdinburghNLP/awesome-hallucination-detection) - Lista de artículos sobre la detección de alucinaciones en LLM.
 - [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - Selección de recursos de guías prácticas sobre LLM.
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Colección de ejemplos de prompts para usar con el modelo ChatGPT.
-- [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - Colección china de ejemplos de prompts para usar con el modelo ChatGPT.
 - [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - Selección de recursos para ChatGPT y GPT-3 de OpenAI.
 - [Chain-of-Thoughts Papers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) - Una tendencia que comenzó con «Chain of Thought Prompting Elicits Reasoning in Large Language Models.
 - [Awesome Deliberative Prompting](https://github.com/logikon-ai/awesome-deliberative-prompting) - Cómo pedir a los LLM que produzcan razonamientos fiables y tomen decisiones sensibles a las razones.

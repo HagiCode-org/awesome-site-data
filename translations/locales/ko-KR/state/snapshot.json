@@ -700,10 +700,10 @@
     "awesome-llm/locales/ko-KR.md": {
       "status": "done",
       "adopted": true,
-      "sourceSha256": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "sourceSha256": "6a1b5810c3cda7f4dd6b069a62e4cd871f1fc1d58868ca9d48884be3ef329087",
       "sourceRevision": "5eae255c34ff32f66b66c89c0765ead66c77db97",
       "translationPath": "content/awesome/awesome-llm/locales/ko-KR.md",
-      "translationSha256": "fa6a5d624dc5b85a30cfc5206e9d437094b5009347d87657982afaad5a30cc46",
+      "translationSha256": "1d11ccc64e1e9004ba811b764aba825d591dee2e6eabe9f420821f89bcc4098b",
       "glossaryVersion": null,
       "attempts": 0,
       "runId": "adopt-20261030-1951",

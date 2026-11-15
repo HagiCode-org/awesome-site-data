@@ -116,7 +116,6 @@
 - [awesome-hallucination-detection](https://github.com/EdinburghNLP/awesome-hallucination-detection) - LLM 환각 탐지 논문 목록.
 - [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - LLM 실전 활용을 위한 엄선된 가이드 자료 목록
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - ChatGPT 모델에 사용할 수 있는 프롬프트 예시 모음.
-- [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPT 모델에 사용할 수 있는 중국어 프롬프트 예시 모음.
 - [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - OpenAI의 ChatGPT 및 GPT-3 관련 자료를 엄선한 목록.
 - [Chain-of-Thoughts Papers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) - “대규모 언어 모델에서 추론을 이끌어내는 사고의 연쇄 프롬프팅”에서 시작된 흐름.
 - [Awesome Deliberative Prompting](https://github.com/logikon-ai/awesome-deliberative-prompting) - LLM이 신뢰할 수 있는 추론을 생성하고 이유에 반응하는 결정을 내리도록 요청하는 방법.

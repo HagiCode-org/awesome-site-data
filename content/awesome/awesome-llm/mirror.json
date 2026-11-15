@@ -1,13 +1,23 @@
 {
   "version": 1,
   "upstream": {
-    "revision": "538eed00fcb05634fd81a68e24397c620fdcd3e8",
+    "revision": "34b792af0c91444ef02cd928072c34282c10135b",
     "readmePath": "README.md",
     "digest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57"
   },
   "mirror": {
     "path": "mirror/README.md",
-    "digest": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57"
+    "digest": "6a1b5810c3cda7f4dd6b069a62e4cd871f1fc1d58868ca9d48884be3ef329087"
   },
-  "edits": []
+  "edits": [
+    {
+      "id": "remove-chatgpt-prompts-zh-link",
+      "category": "removed-source",
+      "reason": "PlexPt/awesome-chatgpt-prompts-zh returns 404 upstream and its collection was removed from the registry, so the link no longer resolves.",
+      "reviewer": "newbe36524",
+      "reviewedAt": "2026-11-15",
+      "find": "- [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - A Chinese collection of prompt examples to be used with the ChatGPT model.\n",
+      "replace": ""
+    }
+  ]
 }

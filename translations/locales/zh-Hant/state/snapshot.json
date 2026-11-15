@@ -700,10 +700,10 @@
     "awesome-llm/locales/zh-Hant.md": {
       "status": "done",
       "adopted": true,
-      "sourceSha256": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "sourceSha256": "6a1b5810c3cda7f4dd6b069a62e4cd871f1fc1d58868ca9d48884be3ef329087",
       "sourceRevision": "5eae255c34ff32f66b66c89c0765ead66c77db97",
       "translationPath": "content/awesome/awesome-llm/locales/zh-Hant.md",
-      "translationSha256": "d24cdcf94acdf3d9a856fe7a6fe33ef7f105b6007b34ccac4420cd268c27bbd3",
+      "translationSha256": "254181300462f2f32b3f45b3cdf9c87d65da772d99692dc14e609a0840770916",
       "glossaryVersion": null,
       "attempts": 0,
       "runId": "adopt-20261030-1951",

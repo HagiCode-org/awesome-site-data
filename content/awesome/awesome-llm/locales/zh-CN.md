@@ -116,7 +116,6 @@
 - [awesome-hallucination-detection](https://github.com/EdinburghNLP/awesome-hallucination-detection) - LLM 幻觉检测论文列表。
 - [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - 精选的 LLM 实用指南资源列表
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - 供 ChatGPT 模型使用的提示词示例合集。
-- [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - 供 ChatGPT 模型使用的中文提示词示例合集。
 - [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - 精选的 OpenAI ChatGPT 和 GPT-3 相关资源列表。
 - [Chain-of-Thoughts Papers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) -  这一研究趋势始于《Chain of Thought Prompting Elicits Reasoning in Large Language Models》。
 - [Awesome Deliberative Prompting](https://github.com/logikon-ai/awesome-deliberative-prompting) - 如何让 LLM 生成可靠的推理并做出基于推理的决策。

@@ -700,10 +700,10 @@
     "awesome-llm/locales/ru-RU.md": {
       "status": "done",
       "adopted": true,
-      "sourceSha256": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "sourceSha256": "6a1b5810c3cda7f4dd6b069a62e4cd871f1fc1d58868ca9d48884be3ef329087",
       "sourceRevision": "5eae255c34ff32f66b66c89c0765ead66c77db97",
       "translationPath": "content/awesome/awesome-llm/locales/ru-RU.md",
-      "translationSha256": "ab7bbeb259955eb89532b3457153cec7d3762388fbc67764ab4e585aab34cce4",
+      "translationSha256": "73b1918e9bc74c76effc492e4aacfb6c2de5e04717df8d862a8940699940ed2a",
       "glossaryVersion": null,
       "attempts": 0,
       "runId": "adopt-20261030-1951",

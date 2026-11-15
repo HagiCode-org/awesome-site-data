@@ -700,10 +700,10 @@
     "awesome-llm/locales/ja-JP.md": {
       "status": "done",
       "adopted": true,
-      "sourceSha256": "9bc521cfa7dc4f4c60c8d758fe0b3e48f079c546c1e9b443784221d34d25ff57",
+      "sourceSha256": "6a1b5810c3cda7f4dd6b069a62e4cd871f1fc1d58868ca9d48884be3ef329087",
       "sourceRevision": "5eae255c34ff32f66b66c89c0765ead66c77db97",
       "translationPath": "content/awesome/awesome-llm/locales/ja-JP.md",
-      "translationSha256": "003ec7eea8f4ca00009dd5e0a041e9c1f1da22174dc570bcc71518eec6fb62cd",
+      "translationSha256": "589e3f6b20a1f1a595dab2efdd1e574742ffc6a49454123357069f619d6e7dd2",
       "glossaryVersion": null,
       "attempts": 0,
       "runId": "adopt-20261030-1951",

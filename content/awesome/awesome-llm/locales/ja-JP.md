@@ -116,7 +116,6 @@
 - [awesome-hallucination-detection](https://github.com/EdinburghNLP/awesome-hallucination-detection) - LLMの幻覚検出に関する論文一覧。
 - [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide) - LLMの実践ガイド資料を厳選した一覧。
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - ChatGPTで使えるプロンプト例集。
-- [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) - ChatGPTで使える中国語のプロンプト例集。
 - [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt) - OpenAIのChatGPTとGPT-3に関する資料一覧。
 - [Chain-of-Thoughts Papers](https://github.com/Timothyxxx/Chain-of-ThoughtsPapers) -  「Chain of Thought Prompting Elicits Reasoning in Large Language Models」から始まった潮流。
 - [Awesome Deliberative Prompting](https://github.com/logikon-ai/awesome-deliberative-prompting) - LLMに信頼できる推論をさせ、推論に基づく意思決定を促す方法。
